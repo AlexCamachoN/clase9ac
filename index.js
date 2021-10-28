@@ -85,8 +85,8 @@ function agregarAlDom() {
     <p><strong> comentario:</strong> ${comentarioI}</p>
     <hr>`;
 }
-
-//funcion para mostrar proceduralmente todos los Coleccionistas en un div en dom
+//----------DESAFIO COMPLEMENTARIO----------------
+//funcion para mostrar PROCEDURALMENTE todos los Coleccionistas en un div en DOM
 function MostrarTodosColeccionistas(e) {
     e.preventDefault();
     let i = 0;
