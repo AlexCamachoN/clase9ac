@@ -1,4 +1,4 @@
-//CREO LAS CLASE DEL ALUMNO
+//CREO LAS CLASE DEL COLECCIONISTA
 class Coleccionista {
     constructor(nombre, email, telefono, comentario) {
         this.nombre = nombre;
@@ -18,7 +18,7 @@ let emailI = formulario.children[3].value;
 let telefonoI = formulario.children[5].value;
 let comentarioI = formulario.children[7].value;
 
-let contenedor = document.querySelector("#ColeccionistaIngresado");
+let contenedor = document.querySelector("#coleccionistaIngresado");
 let displayTodos = document.querySelector("#displayTodos");
 let parrafos = displayTodos.getElementsByTagName("p");
 let bandera = false;
